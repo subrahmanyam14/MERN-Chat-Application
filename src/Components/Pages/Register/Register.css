@@ -1,0 +1,96 @@
+/* Container for the main form */
+.registration-form-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f0f2f5;
+    padding: 20px;
+  }
+  
+  /* Container for the form content */
+  .registration-main-container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #d9f0e4, 0 5px 5px 0 rgba(2, 10, 240, 0.24);
+    width: 100%;
+    max-width: 500px;
+    
+  }
+  
+  /* General styling for form rows */
+  .registration-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Card styling */
+  .registration-card {
+    width: 100%;
+  }
+  
+  /* Card body styling */
+  .registration-card-body {
+    padding: 20px;
+  }
+  
+  /* Centered text */
+  .registration-text-center {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3cb371;
+  }
+  
+  /* Form group styling */
+  .registration-form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Label styling */
+  .registration-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #3cb371;
+    font-weight: bold;
+  }
+  
+  /* Input field styling */
+  .registration-form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Button styling */
+  .registration-btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #3cb371;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .registration-btn-submit:hover {
+    background-color: #3cb371;
+  }
+  
+  /* Styling for additional links */
+  .registration-links {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .registration-link {
+    color: #3cb371;
+    text-decoration: none;
+  }
+  
+  .registration-link:hover {
+    text-decoration: underline;
+  }
+  
