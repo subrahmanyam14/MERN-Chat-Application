@@ -1,0 +1,102 @@
+.chatList {
+  overflow-y: scroll;
+  height: 100vh; /* Adjust based on your header height */
+  position: relative;
+  margin-bottom: 20%;
+}
+
+.chatList__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.chatList__item:hover,
+.chatList__item--selected {
+  background-color: rgb(227, 252, 247);
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.chatList__itemInfo {
+  flex: 1;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+.chatList__itemTime {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #3cb371;
+}
+
+.log-out-button {
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+  display: flex;
+}
+
+.log-out-button button {
+  height: 7vh;
+  width: 12vw;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(0, 104, 74);
+  color: white;
+  margin: 10px;
+  margin-left: 8vw;
+}
+
+.log-out-button button:hover {
+  cursor: pointer;
+  
+  background-color: rgb(1, 73, 53);
+}
+
+.profile-pic-container {
+  display: flex;
+  align-items: center;
+  margin-left: 1%;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.part1 {
+  display: flex;
+  align-items: center;
+  margin-left: 1%;
+  gap: 1rem;
+}
+
+.part2 {
+  display: none;
+}
+
+.profile-pic-container:hover .part2 {
+  display: flex;
+}
+
+.online {
+  background-color: #3cb371; /* Green color for online status */
+  border-radius: 50%;
+  height: 13px;
+  width: 12px;
+  border: none;
+ 
+  margin-left: -30px;
+  margin-top: 40px;
+}
+

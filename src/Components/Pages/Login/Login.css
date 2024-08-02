@@ -1,0 +1,153 @@
+/* Login.css */
+
+/* Container for the main form */
+.form-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  margin-top: 5vh;
+  /* background-color: #f0f2f5; */
+  padding: 20px;
+}
+
+/* Container for the form content */
+.form-main-container {
+  /* background: #ffffff; */
+  background-color: #e7ece9;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 0px white;
+  width: 100%;
+  max-width: 400px;
+  
+}
+
+/* General styling for form rows */
+.form-row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Card styling */
+.form-card {
+  width: 100%;
+}
+
+/* Card body styling */
+.form-card-body {
+  padding: 20px;
+}
+
+/* Centered text */
+.form-text-center {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(0, 104, 74);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.42857143;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #0e0f0e;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.42857143;font-weight: bold;
+}
+
+/* Input field styling */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button styling */
+.form-btn {
+  width: 26vw;
+  height: 40px;
+  padding: 10px;
+  background-color: rgb(0, 104, 74);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-btn:hover {
+  background-color: rgb(1, 73, 53);
+}
+
+/* Styling for additional links */
+.form-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-link {
+  color: #3cb371;
+  text-decoration: none;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+.form-link:hover {
+  text-decoration: underline;
+}
+
+/* Loading spinner */
+
+
+.lds-dual-ring,
+.lds-dual-ring:after {
+  box-sizing: border-box;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6.4px solid currentColor;
+  border-color: currentColor transparent currentColor transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  /* Make form groups stack vertically on small screens */
+  .form-main {
+    min-height: 60vh;
+  }
+}
