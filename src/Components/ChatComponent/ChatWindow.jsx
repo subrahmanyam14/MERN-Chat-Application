@@ -27,7 +27,7 @@ function ChatWindow() {
     const token = localStorage.getItem("token");
     const userId = localStorage.getItem("userId");
 
-    socket.current = io("http://localhost:5000/", {
+    socket.current = io(`${import.meta.env.VITE_BACKEND_URL}`, {
       query: { userId },
       auth: { token },
     });
