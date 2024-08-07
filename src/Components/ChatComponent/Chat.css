@@ -3,4 +3,14 @@
     flex-direction: column;
     flex: 1;
   }
+
+  .part1 {
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+    gap: 1rem;
+    color: rgb(1, 73, 53);
+
+  }
+  
   

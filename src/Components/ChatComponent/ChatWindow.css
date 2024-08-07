@@ -3,7 +3,7 @@
   flex-direction: column;
   flex-grow: 1;
   overflow-y: auto;
-  padding-bottom: 50px; /* To ensure there's space for the input field */
+  padding-bottom: 8%; /* To ensure there's space for the input field */
   background: white; /* Background color similar to WhatsApp */
   margin-top: 2%;
 }

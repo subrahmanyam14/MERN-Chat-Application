@@ -29,7 +29,7 @@ function ChatWindow() {
     const token = localStorage.getItem("token");
     const userId = localStorage.getItem("userId");
 
-    socket.current = io("http://localhost:5000/", {
+    socket.current = io(`${import.meta.env.VITE_BACKEND_URL}`, {
       query: { userId },
       auth: { token },
     });
@@ -108,7 +108,6 @@ function ChatWindow() {
     const sender = chatUsers.find((user) => user._id === id);
     return sender ? sender.fullName : "";
 }
-
 
   return (
     <div className="chatWindow">
